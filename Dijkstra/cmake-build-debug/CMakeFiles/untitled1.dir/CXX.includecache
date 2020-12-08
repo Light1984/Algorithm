@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/romabruks/Documents/Dijkstra/DijkstraImplement.h
+iostream
+-
+vector
+-
+
+/Users/romabruks/Documents/Dijkstra/GraphGenerate.h
+iostream
+-
+fstream
+-
+cstdlib
+-
+random
+-
+algorithm
+-
+iterator
+-
+vector
+-
+
+/Users/romabruks/Documents/Dijkstra/main.cpp
+iostream
+-
+vector
+-
+chrono
+-
+GraphGenerate.h
+/Users/romabruks/Documents/Dijkstra/GraphGenerate.h
+DijkstraImplement.h
+/Users/romabruks/Documents/Dijkstra/DijkstraImplement.h
+
